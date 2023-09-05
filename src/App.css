@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .App {
-  text-align: center;
-  /*background-color: cornflowerblue;*/
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space;
+  align-items: center;
+  height: 100vh; /* use the whole viewport */
 }
 
 table {
@@ -35,7 +35,10 @@ th, td {
   padding: 20px;
 }
 
-.newProjectButton { 
-  position: relative;
-  top: 25px;
+.page-header {
+  padding: 20px;
+}
+
+.new-project-button-container {
+  margin: 10px;
 }

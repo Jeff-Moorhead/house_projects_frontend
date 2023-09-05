@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+{/* React.StrictMode checks for impure components by rendering them twice and checking for the same output */}
 root.render(
   <React.StrictMode>
     <App />
